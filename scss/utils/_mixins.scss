@@ -1,0 +1,19 @@
+@mixin creationBtn 
+{
+    background: linear-gradient(to top left,$primarycolor,$secondarycolor);
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 3px 10px  #cacaca;
+    outline: none;
+
+}
+@mixin icon 
+{
+    padding-right: 8px;
+     color: #7e7e7e;
+     font-size: large;
+    
+}
