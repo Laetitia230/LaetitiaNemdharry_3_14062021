@@ -338,17 +338,6 @@ footer
    }
 }
   
-    .heart
-    { 
-       font-size: x-large;
-       position:absolute;
-       right: 40px;
-       margin-top: 5px;
-       &:hover{
-         background-image: linear-gradient(to bottom,$primarycolor,$secondarycolor);
-    
-}
-   }
    .titleMenu
    {
        font-weight: 300;
@@ -442,7 +431,7 @@ footer
         -moz-transform: translateY(0px);
         -ms-transform: translateY(0px);
         -o-transform: translateY(0px);
-}
+    }
     to
     {
         transform: translateY(15px);
@@ -451,7 +440,7 @@ footer
         -moz-transform: translateY(15px);
         -ms-transform: translateY(15px);
         -o-transform: translateY(15px);
-}
+    }
 }
 .menuA{
     animation-name: menu;

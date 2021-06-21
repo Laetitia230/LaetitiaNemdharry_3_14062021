@@ -286,16 +286,6 @@ footer .fa-hands-helping {
   font-weight: 500;
 }
 
-.heart {
-  font-size: x-large;
-  position: absolute;
-  right: 40px;
-  margin-top: 5px;
-}
-.heart:hover {
-  background-image: linear-gradient(to bottom, #9356DC, #FF79DA);
-}
-
 .titleMenu {
   font-weight: 300;
   margin-left: 20px;
