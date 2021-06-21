@@ -10,7 +10,7 @@ body
 	margin: 0;
     padding: 0;
 }
-.container
+.homePage
 {  
     box-sizing: border-box;
 }
@@ -52,7 +52,7 @@ header
      
 }
 /* Part 1 */
-.accueilPart1
+.accueilBouton
 {
      background-color: #f6f6f6;
      text-align: center;
@@ -89,7 +89,7 @@ header
      }
 }
 /* Part 2 */
-.accueilPart2
+.accueilFonctionnement
 {
     padding: 20px;
     height: 300px;
@@ -157,7 +157,7 @@ header
     }   
 }
 /* Part3 */
-.accueilPart3
+.accueilRestaurant
 {
   background-color: #f2f2f2;
   height: auto;  
@@ -278,13 +278,13 @@ footer
 
 /* Page 1, 2, 3, 4 */
 
-.container2
+.menuPage
 {
     width: 100%;
     box-sizing: border-box;
 }
 /* Header */
-.header2
+.headerMenu
 {
 	display: flex;
 	align-items: center;
@@ -316,7 +316,7 @@ footer
 }
 
 /* Part1 */
-.part1
+.menu
 {
    border-radius: 45px 45px 0 0;
    -webkit-border-radius: 45px 45px 0 0;

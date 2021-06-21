@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-.container {
+.homePage {
   box-sizing: border-box;
 }
 
@@ -43,17 +43,17 @@ header {
 }
 
 /* Part 1 */
-.accueilPart1 {
+.accueilBouton {
   background-color: #f6f6f6;
   text-align: center;
   height: 260px;
 }
-.accueilPart1 h1 {
+.accueilBouton h1 {
   width: 70%;
   margin: auto;
   padding-top: 30px;
 }
-.accueilPart1 p {
+.accueilBouton p {
   width: 95%;
   margin: auto;
   padding-top: 10px;
@@ -61,7 +61,7 @@ header {
   color: #595959;
   font-weight: 300;
 }
-.accueilPart1 .btnAccueil {
+.accueilBouton .btnAccueil {
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   padding: 15px;
   padding-right: 20px;
@@ -73,21 +73,21 @@ header {
   text-decoration: none;
   color: white;
 }
-.accueilPart1 .btnAccueil:hover {
+.accueilBouton .btnAccueil:hover {
   opacity: 0.9;
   box-shadow: 0 3px 10px #9b9b9b;
   transition-duration: 0.6s;
 }
 
 /* Part 2 */
-.accueilPart2 {
+.accueilFonctionnement {
   padding: 20px;
   height: 300px;
 }
-.accueilPart2 h1 {
+.accueilFonctionnement h1 {
   margin-left: 0%;
 }
-.accueilPart2 .option {
+.accueilFonctionnement .option {
   display: flex;
   box-shadow: 0 3px 10px #dbdbdb;
   background: #f2f2f2;
@@ -101,10 +101,10 @@ header {
   padding-left: 20px;
   align-items: center;
 }
-.accueilPart2 p {
+.accueilFonctionnement p {
   font-weight: 500;
 }
-.accueilPart2 h6 {
+.accueilFonctionnement h6 {
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -120,45 +120,45 @@ header {
   position: absolute;
   left: 18px;
 }
-.accueilPart2 .fa-mobile-alt {
+.accueilFonctionnement .fa-mobile-alt {
   padding-right: 8px;
   color: #7e7e7e;
   font-size: large;
 }
-.accueilPart2 .fa-ellipsis-v {
+.accueilFonctionnement .fa-ellipsis-v {
   padding-right: 0px;
   color: #7e7e7e;
   font-size: 12px;
 }
-.accueilPart2 .fa-bars {
+.accueilFonctionnement .fa-bars {
   padding-left: 0px;
   color: #7e7e7e;
   font-size: small;
   padding-right: 8px;
 }
-.accueilPart2 .fa-store {
+.accueilFonctionnement .fa-store {
   padding-right: 8px;
   color: #7e7e7e;
   font-size: large;
 }
 
 /* Part3 */
-.accueilPart3 {
+.accueilRestaurant {
   background-color: #f2f2f2;
   height: auto;
   padding: 20px;
   display: block;
   padding-top: 30px;
 }
-.accueilPart3 a {
+.accueilRestaurant a {
   text-decoration: none;
   color: black;
 }
-.accueilPart3 h1 {
+.accueilRestaurant h1 {
   margin: 0px;
   padding-bottom: 15px;
 }
-.accueilPart3 .box {
+.accueilRestaurant .box {
   box-sizing: border-box;
   border-radius: 15px;
   overflow: hidden;
@@ -166,12 +166,12 @@ header {
   height: 190px;
   margin-bottom: 15px;
 }
-.accueilPart3 img {
+.accueilRestaurant img {
   width: 100%;
   height: 126px;
   object-fit: cover;
 }
-.accueilPart3 .new {
+.accueilRestaurant .new {
   background-color: #99E2D0;
   color: #008766;
   font-size: small;
@@ -186,12 +186,12 @@ header {
   font-weight: 500;
   text-align: center;
 }
-.accueilPart3 h3 {
+.accueilRestaurant h3 {
   margin: 0px;
   margin-top: 5px;
   margin-left: 10px;
 }
-.accueilPart3 p {
+.accueilRestaurant p {
   font-size: 17px;
   line-height: 1px;
   margin: 10px;
@@ -235,27 +235,27 @@ footer .fa-hands-helping {
 }
 
 /* Page 1, 2, 3, 4 */
-.container2 {
+.menuPage {
   width: 100%;
   box-sizing: border-box;
 }
 
 /* Header */
-.header2 {
+.headerMenu {
   display: flex;
   align-items: center;
   padding: 25px;
   padding-bottom: 15px;
 }
-.header2 .fa-arrow-left {
+.headerMenu .fa-arrow-left {
   margin-right: 60px;
   font-size: x-large;
   color: #303030;
 }
-.header2 .headerLogo2 {
+.headerMenu .headerLogo2 {
   font-family: "Shrikhand";
 }
-.header2 .headerLogo2 h1 {
+.headerMenu .headerLogo2 h1 {
   margin: 0;
 }
 
@@ -267,7 +267,7 @@ footer .fa-hands-helping {
 }
 
 /* Part1 */
-.part1 {
+.menu {
   border-radius: 45px 45px 0 0;
   -webkit-border-radius: 45px 45px 0 0;
   -moz-border-radius: 45px 45px 0 0;
@@ -278,7 +278,7 @@ footer .fa-hands-helping {
   position: relative;
   margin-top: -80px;
 }
-.part1 h1 {
+.menu h1 {
   font-family: "Shrikhand";
   padding-top: 30px;
   margin-left: 20px;
