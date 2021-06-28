@@ -198,6 +198,13 @@ header {
   font-weight: 300;
 }
 
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .fullHeart {
   color: transparent;
   font-size: x-large;
