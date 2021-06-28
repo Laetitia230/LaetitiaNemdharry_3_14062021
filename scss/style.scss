@@ -81,7 +81,7 @@ header
          color: white;
          &:hover
          {
-            opacity: 0.90;
+            opacity: 0.80;
             box-shadow: 0 3px 10px  #9b9b9b;
             transition-duration: 0.6s;
          }
@@ -228,19 +228,26 @@ header
     }  
 }
 
+.fullHeart 
+{
+    color: transparent;
+    font-size: x-large;
+    position: absolute;
+        right: 50px;
+        font-size: x-large;
+        margin-top: 5px;
+    :hover{
+        color: $primarycolor;
+    }
+}
 .fa-heart
 {
     position: absolute;
-    right: 40px;
-    font-size: large;
+    right: 50px;
+    font-size: x-large;
     margin-top: 5px;
     -webkit-text-stroke: 1px white;
-    &:hover
-    {
-        background: linear-gradient(to bottom, $primarycolor,$secondarycolor);
-        
-    }
-    
+
 }
 
 /* Footer */
@@ -477,7 +484,7 @@ footer
     margin-bottom: 35px;
     transition-duration: 0.6s;
     &:hover{
-        opacity: 0.90;
+        opacity: 0.80;
         box-shadow: 0 3px 10px  #9b9b9b;
         transition-duration: 0.6s;
     }

@@ -74,7 +74,7 @@ header {
   color: white;
 }
 .accueilBouton .btnAccueil:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   box-shadow: 0 3px 10px #9b9b9b;
   transition-duration: 0.6s;
 }
@@ -198,15 +198,24 @@ header {
   font-weight: 300;
 }
 
+.fullHeart {
+  color: transparent;
+  font-size: x-large;
+  position: absolute;
+  right: 50px;
+  font-size: x-large;
+  margin-top: 5px;
+}
+.fullHeart :hover {
+  color: #9356DC;
+}
+
 .fa-heart {
   position: absolute;
-  right: 40px;
-  font-size: large;
+  right: 50px;
+  font-size: x-large;
   margin-top: 5px;
   -webkit-text-stroke: 1px white;
-}
-.fa-heart:hover {
-  background: linear-gradient(to bottom, #9356DC, #FF79DA);
 }
 
 /* Footer */
@@ -417,7 +426,7 @@ footer .fa-hands-helping {
   transition-duration: 0.6s;
 }
 .btnCommand:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   box-shadow: 0 3px 10px #9b9b9b;
   transition-duration: 0.6s;
 }
