@@ -400,7 +400,12 @@ footer
                 padding-bottom: 0;
                 border-bottom-right-radius: 15px;
                 border-top-right-radius: 15px;
-            }
+                transition: 1.5s;
+                -webkit-transition: 1.5s;
+                -moz-transition: 1.5s;
+                -ms-transition: 1.5s;
+                -o-transition: 1.5s;
+}
             .fa-check-circle{
                 background-color: transparent;
                 margin: 10px;
