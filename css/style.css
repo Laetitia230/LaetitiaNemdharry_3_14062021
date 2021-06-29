@@ -455,6 +455,7 @@ footer .fa-hands-helping {
   display: flex;
 }
 
+/* Home Page */
 @media only screen and (min-width: 768px) {
   .positioning {
     display: grid;
@@ -496,8 +497,22 @@ footer .fa-hands-helping {
   .accueilRestaurant {
     align-items: center;
   }
-  .accueilRestaurant .box {
+
+  .box {
     width: 350px;
+  }
+}
+/* Fin home page */
+/* Pages 1, 2, 3, 4 */
+@media only screen and (min-width: 1024px) {
+  .menu {
+    width: 50%;
+    margin-left: 256px;
+  }
+
+  .imgHeader {
+    width: 50%;
+    border-radius: 20px;
   }
 }
 
