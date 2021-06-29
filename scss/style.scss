@@ -231,6 +231,8 @@ header
 {
     color: transparent;
     font-size: x-large;
+    position: absolute;
+    margin-left: -44px;
     :hover{
         color: $primarycolor;
     }
@@ -239,6 +241,7 @@ header
 {   
     font-size: x-large;
     -webkit-text-stroke: 1px white;
+    padding-right: 20px;
 
 }   
 }
