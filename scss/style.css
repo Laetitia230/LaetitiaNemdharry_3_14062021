@@ -657,4 +657,10 @@ footer .fa-hands-helping {
     border-radius: 20px;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  .menu {
+    margin-left: 360px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
