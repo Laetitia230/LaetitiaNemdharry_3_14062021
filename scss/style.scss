@@ -138,8 +138,9 @@ header
     padding: 20px;
     height: 300px;
 
-    h1
-    {
+
+    h1 
+{
        margin-left: 0%;
     }
     .option
@@ -156,6 +157,24 @@ header
         margin-bottom: 20px;
         padding-left: 20px;
         align-items: center;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transition:transform 400ms;
+        -webkit-transition:transform 400ms;
+        -moz-transition:transform 400ms;
+        -ms-transition:transform 400ms;
+        -o-transition:transform 400ms;
+        &:hover{
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            background: rgb(251, 221, 249);
+}
     }
     p
     {

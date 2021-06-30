@@ -146,6 +146,24 @@ header {
   margin-bottom: 20px;
   padding-left: 20px;
   align-items: center;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: transform 400ms;
+  -webkit-transition: transform 400ms;
+  -moz-transition: transform 400ms;
+  -ms-transition: transform 400ms;
+  -o-transition: transform 400ms;
+}
+.accueilFonctionnement .option:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  background: #fbddf9;
 }
 .accueilFonctionnement p {
   font-weight: 500;
