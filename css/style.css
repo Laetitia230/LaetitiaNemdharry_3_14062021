@@ -558,17 +558,16 @@ footer .fa-hands-helping {
 @media only screen and (min-width: 1024px) {
   .menu {
     width: 50%;
-    margin-left: 256px;
+    margin-left: 25%;
   }
 
   .imgHeader {
     width: 50%;
     border-radius: 20px;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .menu {
-    margin-left: 360px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
   }
 }
 
