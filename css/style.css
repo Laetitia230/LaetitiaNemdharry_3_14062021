@@ -182,7 +182,7 @@ header {
   color: white;
   font-style: normal;
   position: absolute;
-  left: 18px;
+  left: -15px;
 }
 .accueilFonctionnement .fa-mobile-alt {
   padding-right: 8px;
@@ -584,7 +584,7 @@ footer .fa-hands-helping {
   }
   .accueilFonctionnement h6 {
     position: absolute;
-    margin-left: -4%;
+    margin-left: -15%;
     left: auto;
   }
 }
