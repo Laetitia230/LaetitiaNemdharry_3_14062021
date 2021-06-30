@@ -22,9 +22,9 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  animation: spin 1.5s linear 3s;
-  -webkit-animation: spin 1.5s linear 3s;
-  -o-animation: spin 1.5s linear 3s;
+  animation: spin 1.5s linear 1.5s;
+  -webkit-animation: spin 1.5s linear 1.5s;
+  -o-animation: spin 1.5s linear 1.5s;
   /*Positionnementduloader*/
   margin: auto;
   position: absolute;
