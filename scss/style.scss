@@ -446,83 +446,108 @@ footer
        padding-top: 10px;
    }
 
-.menuName
-{
-        display: flex;
-        margin-bottom: 15px;
-        margin: 13px;
-        background-color: white;
-        border-radius: 15px;
-        box-shadow: 0 0 7px #c1c1c1;
-        justify-content: space-between;
-        
-        .menuCheck{
-            &:hover{
-                background-color: $tertiarycolor;
-                height: 100%;
-                margin-right: -3px;
-                padding: 20px;
-                padding-top: 0;
-                padding-bottom: 0;
-                border-bottom-right-radius: 15px;
-                border-top-right-radius: 15px;
-                transition: 1.5s;
-                -webkit-transition: 1.5s;
-                -moz-transition: 1.5s;
-                -ms-transition: 1.5s;
-                -o-transition: 1.5s;
-}
-            .fa-check-circle{
-                background-color: transparent;
-                margin: 10px;
-                
-                text-align: center;
-                align-items: baseline;
-                margin-top: 25px;
-                color: white;
-                font-size: large;
-                transition: transform 400ms ease-in-out;
-                transform: rotate(0) ;
-                 transition: 1.5s;
-                &:hover{
-                    transform:rotate(360deg) ;
-                transition: 1.5s;
-                }
-            }
-            }
-        h2
-        {
-            margin: 0;
-            margin-left: 10px;
-            margin-bottom: 3px;
-            padding-top: 10px;
-            padding-left: 10px;
-            font-size: 18px;
-        }
-    
-        p
-        {
-            padding-bottom: 5px;
-            
-            font-weight: 300;
-            font-size: 15.5px;
-            padding-left: 10px;
-            line-height:auto;
-            margin: 10px;
-    
-            
-            
+   .menuName
+   {
+           display: flex;
+           margin-bottom: 15px;
+           margin: 13px;
+           background-color: white;
+           border-radius: 15px;
+           box-shadow: 0 0 7px #c1c1c1;
+           justify-content: space-between;
+           overflow: hidden;
            
-        } 
-    }
-.menuPrice
-{
-    display: flex;
-    align-items: flex-end;
-    strong{
-        margin-bottom: 20px;
-    }
-}
+           .menuCheck{
+               overflow: hidden;
+               
+               
+               &:hover{
+                   background-color: $tertiarycolor;
+                   height: 100%;
+                   margin-right: -3px;
+                   padding: 20px;
+                   padding-top: 0;
+                   padding-bottom: 0;
+                   border-bottom-right-radius: 15px;
+                   border-top-right-radius: 15px;
+                   transition: 1.5s;
+               }
+               .fa-check-circle{
+                   background-color: transparent;
+                   margin: 10px;
+                   overflow: hidden;
+                   text-align: center;
+                   align-items: baseline;
+                   margin-top: 25px;
+                   color: white;
+                   font-size: large;
+                   transition: transform 400ms ease-in-out;
+                   transform: rotate(0) ;
+                    transition: 1.5s;
+                    
+                   &:hover{
+                       transform:rotate(360deg) ;
+                   transition: 1.5s;
+                   }
+               }
+               
+               }
+           h2
+           {
+               margin: 0;
+               margin-left: 10px;
+               margin-bottom: 3px;
+               padding-top: 10px;
+               padding-left: 10px;
+               font-size: 18px;
+           }
+           .h2, .p{
+               overflow: hidden;
+               white-space: nowrap;
+               text-overflow: ellipsis;
+               transition: 600ms;
+           }
+       
+           p
+           {
+               padding-bottom: 5px;
+               
+               font-weight: 300;
+               font-size: 15.5px;
+               padding-left: 10px;
+               line-height:auto;
+               margin: 10px;
+               
+           } 
+           .text{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                
+                transition: 600ms;
+                -webkit-transition: 600ms;
+                -moz-transition: 600ms;
+                -ms-transition: 600ms;
+                -o-transition: 600ms;
+   }
+          
+           
+       }
+   .menuPrice
+   {
+       display: flex;
+       align-items: flex-end;
+       transition: 600ms;
+       
+       -webkit-transition: 600ms;
+       -moz-transition: 600ms;
+       -ms-transition: 600ms;
+       -o-transition: 600ms;
+       strong
+   {
+           margin-bottom: 20px;
+       }
+   }
 
 @keyframes menu
 {

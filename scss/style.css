@@ -493,6 +493,11 @@ footer .fa-hands-helping {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
+}
+
+.menuName .menuCheck {
+  overflow: hidden;
 }
 
 .menuName .menuCheck:hover {
@@ -504,16 +509,14 @@ footer .fa-hands-helping {
   padding-bottom: 0;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
-  transition: 1.5s;
   -webkit-transition: 1.5s;
-  -moz-transition: 1.5s;
-  -ms-transition: 1.5s;
-  -o-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .menuName .menuCheck .fa-check-circle {
   background-color: transparent;
   margin: 10px;
+  overflow: hidden;
   text-align: center;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -547,6 +550,14 @@ footer .fa-hands-helping {
   font-size: 18px;
 }
 
+.menuName .h2, .menuName .p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-transition: 600ms;
+  transition: 600ms;
+}
+
 .menuName p {
   padding-bottom: 5px;
   font-weight: 300;
@@ -556,6 +567,17 @@ footer .fa-hands-helping {
   margin: 10px;
 }
 
+.menuName .text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: 600ms;
+  -webkit-transition: 600ms;
+  -moz-transition: 600ms;
+  -ms-transition: 600ms;
+  -o-transition: 600ms;
+}
+
 .menuPrice {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -563,6 +585,11 @@ footer .fa-hands-helping {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  transition: 600ms;
+  -webkit-transition: 600ms;
+  -moz-transition: 600ms;
+  -ms-transition: 600ms;
+  -o-transition: 600ms;
 }
 
 .menuPrice strong {
