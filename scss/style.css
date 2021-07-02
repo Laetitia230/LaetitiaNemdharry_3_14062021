@@ -357,6 +357,11 @@ header {
 
 .accueilRestaurant .fullHeart :hover {
   color: #9356DC;
+  transition: color 1.5s ease-out;
+  -webkit-transition: color 1.5s ease-out;
+  -moz-transition: color 1.5s ease-out;
+  -ms-transition: color 1.5s ease-out;
+  -o-transition: color 1.5s ease-out;
 }
 
 .accueilRestaurant .fa-heart {

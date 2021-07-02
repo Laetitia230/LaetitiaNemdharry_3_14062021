@@ -317,17 +317,25 @@ header
     font-size: x-large;
     position: absolute;
     margin-left: -44px;
+   
     :hover{
         color: $primarycolor;
-    }
+        transition: color 1.5s ease-out;
+        -webkit-transition: color 1.5s ease-out;
+        -moz-transition: color 1.5s ease-out;
+        -ms-transition: color 1.5s ease-out;
+        -o-transition: color 1.5s ease-out;
+}
 }
 .fa-heart
 {   
     font-size: x-large;
     -webkit-text-stroke: 1px white;
     padding-right: 20px;
+    
+  
 
-}   
+} 
 }
 .displayFlex
 {
