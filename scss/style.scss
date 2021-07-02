@@ -449,6 +449,7 @@ footer
            margin-top: 5px;
        :hover{
            color: $primarycolor;
+           transition: color 1.5s ease-out;
        }
    }
    .fa-heart

@@ -395,6 +395,7 @@ footer .fa-hands-helping {
 }
 .menu .fullHeart :hover {
   color: #9356DC;
+  transition: color 1.5s ease-out;
 }
 .menu .fa-heart {
   position: absolute;

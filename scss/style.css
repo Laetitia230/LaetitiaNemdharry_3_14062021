@@ -487,6 +487,8 @@ footer .fa-hands-helping {
 
 .menu .fullHeart :hover {
   color: #9356DC;
+  -webkit-transition: color 1.5s ease-out;
+  transition: color 1.5s ease-out;
 }
 
 .menu .fa-heart {
