@@ -415,6 +415,11 @@ footer .fa-hands-helping {
   font-size: 13px;
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Page 1, 2, 3, 4 */
 .menuPage {
   width: 100%;
