@@ -382,7 +382,7 @@ footer a {
   position: relative;
   margin-top: -80px;
 }
-.menu h1 {
+.menu .pageTitle {
   font-family: "Shrikhand";
   padding-top: 30px;
   margin-left: 20px;
