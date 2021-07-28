@@ -487,42 +487,62 @@ a
            box-shadow: 0 0 7px #c1c1c1;
            justify-content: space-between;
            overflow: hidden;
-           
-           .menuCheck{
-               overflow: hidden;
-               
-               
-               &:hover{
-                   background-color: $tertiarycolor;
-                   height: 100%;
-                   margin-right: -3px;
-                   padding: 20px;
-                   padding-top: 0;
-                   padding-bottom: 0;
-                   border-bottom-right-radius: 15px;
-                   border-top-right-radius: 15px;
-                   transition: 1.5s;
-               }
-               .fa-check-circle{
-                   background-color: transparent;
-                   margin: 10px;
-                   overflow: hidden;
-                   text-align: center;
-                   align-items: baseline;
-                   margin-top: 25px;
-                   color: white;
-                   font-size: large;
-                   transition: transform 400ms ease-in-out;
-                   transform: rotate(0) ;
+           &:hover{
+            .menuCheck{
+                overflow: hidden;
+                
+                
+                
+                    background-color: $tertiarycolor;
+                    height: 100%;
+                    margin-right: -3px;
+                    padding: 20px;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    border-bottom-right-radius: 15px;
+                    border-top-right-radius: 15px;
                     transition: 1.5s;
-                    
-                   &:hover{
-                       transform:rotate(360deg) ;
-                       transition: 1.5s;
-                   }
-               }
-               
-               }
+                    .fa-check-circle{
+                     background-color: transparent;
+                     margin: 10px;
+                     overflow: hidden;
+                     text-align: center;
+                     align-items: baseline;
+                     margin-top: 25px;
+                     color: white;
+                     font-size: large;
+                     transition: transform 400ms ease-in-out;
+                     transform: rotate(360deg) ;
+                     transition: 1s;
+                     -webkit-transform: rotate(360deg) ;
+                     -moz-transform: rotate(360deg) ;
+                     -ms-transform: rotate(360deg) ;
+                     -o-transform: rotate(360deg) ;
+                     -webkit-transition: 1s;
+                     -moz-transition: 1s;
+                     -ms-transition: 1s;
+                     -o-transition: 1s;}
+                }
+            }
+            .menuCheck{
+               overflow: hidden;     
+               .fa-check-circle{
+                    background-color: transparent;
+                    margin: 10px;
+                    overflow: hidden;
+                    text-align: center;
+                    align-items: baseline;
+                    margin-top: 25px;
+                    color: white;
+                    font-size: large;
+                    transition: transform 400ms ease-in-out;
+                    transform: rotate(0) ;
+                    transition: 1s;
+                    -webkit-transition: 1s;
+                    -moz-transition: 1s;
+                    -ms-transition: 1s;
+                    -o-transition: 1s}
+                 }
            h2
            {
                margin: 0;

@@ -428,10 +428,8 @@ footer a {
   justify-content: space-between;
   overflow: hidden;
 }
-.menuName .menuCheck {
+.menuName:hover .menuCheck {
   overflow: hidden;
-}
-.menuName .menuCheck:hover {
   background-color: #99E2D0;
   height: 100%;
   margin-right: -3px;
@@ -441,6 +439,30 @@ footer a {
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   transition: 1.5s;
+}
+.menuName:hover .menuCheck .fa-check-circle {
+  background-color: transparent;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+  align-items: baseline;
+  margin-top: 25px;
+  color: white;
+  font-size: large;
+  transition: transform 400ms ease-in-out;
+  transform: rotate(360deg);
+  transition: 1s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.menuName .menuCheck {
+  overflow: hidden;
 }
 .menuName .menuCheck .fa-check-circle {
   background-color: transparent;
@@ -453,11 +475,11 @@ footer a {
   font-size: large;
   transition: transform 400ms ease-in-out;
   transform: rotate(0);
-  transition: 1.5s;
-}
-.menuName .menuCheck .fa-check-circle:hover {
-  transform: rotate(360deg);
-  transition: 1.5s;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 .menuName h2 {
   margin: 0;
